@@ -66,6 +66,23 @@ div.content {
     
 }
 
+div.imgae {
+    max-width: 100%;
+    width: 400px;
+    magein:32px;
+    overflow: hidden;
+}
+
+.a img {
+    transition: all 0.2s linear;
+}
+
+.a:hover img {
+    transform: sacle(1.4);
+}
+
+    
+
 div.footer {
     height: 100%;
     width: 100%;
