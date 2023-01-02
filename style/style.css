@@ -6,7 +6,7 @@ html {
     font-size: 16px;
     text-rendering: optimizeLegibility;
     text-size-adjust: 100%;
-    
+    word-break: keep-all;    
 }
 
 html {
