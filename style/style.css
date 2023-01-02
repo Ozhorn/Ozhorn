@@ -8,8 +8,8 @@ html {
 }
 
 html {
-    background-color: #0e0e0e;
-    color: #e5e5e5;
+    background-color: #1a1a1a;
+    color: #cccccc;
 }
 
 body {
@@ -27,9 +27,9 @@ body {
 
 div.content {
     height: 100%;
-    width: 150px;
+    width: 300px;
     float: left;
-    margin: 20px;
+    margin: 30px;
 }
 
 footer {
