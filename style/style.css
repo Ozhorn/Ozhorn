@@ -25,6 +25,12 @@ body {
     cursor: default;
 }
 
+div.title {
+    height: 100%;
+    width: 100%;
+    margin: 20px;
+}
+
 div.content {
     height: 100%;
     width: 300px;
