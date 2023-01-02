@@ -6,62 +6,74 @@ html {
     font-size: 16px;
     text-rendering: optimizeLegibility;
     text-size-adjust: 100%;
-    word-break: keep-all;    
+    word-break: keep-all;
+    margin: 0px;
 }
 
 html {
-    background-color: #1a1a1a;
+    background-color: #111111;
     color: #cccccc;
 }
 
-p {
-  a:link {
-      color : white;
-      text-decoration: none;
+a:link {
+    color : white;
+    text-decoration: none;
     }
   
-  a:visited {
-      color : gray;
-      text-decoration: none;
-    }
+a:visited {
+    color : gray;
+    text-decoration: none;
+}
   
-  a:hover {
-      color : white;
-      text-decoration: underline;
-    }
+a:hover {
+    color : white;
+    text-decoration: underline;
 }
 
 body {
+    margin-left: 100px;
+    margin-right: 100px;
     position: relative;
     min-height: 100%;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: none;
     -ms-overflow-style: none;
     scrollbar-width: none;
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 1.6;
     word-break: keep-all;
     cursor: default;
-}
-
-div.title {
-    height: 100%;
-    width: 100%;
-    margin: 16px;
-    font-weight: 800;
-    font-size: 18px;
-}
-
-div.content {
-    height: 100%;
-    width: 360px;
-    float: left;
-    margin: 16px;
 }
 
 footer {
     font-size: 14px;
     font-weight: 700;
     color: gray;
-
 }
+
+div.title {
+    height: 100%;
+    width: 100%;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+div.content {
+    height: 100%;
+    width: 380px;
+    float: left;
+    margin: 0px 32px 0px 0px;
+    
+}
+
+div.footer {
+    height: 100%;
+    width: 100%;
+    clear: left;
+    margin: 0px 32px 0px 0px;
+    font-size: 14px;
+    font-weight: 700;
+    color: gray;
+    padding-top: 64px;
+}
+
