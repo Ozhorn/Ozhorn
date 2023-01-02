@@ -13,21 +13,22 @@ html {
     background-color: #1a1a1a;
     color: #cccccc;
 }
+
 html {
   a:link {
-  color : white;
-  text-decoration: none;
-  }
+      color : white;
+      text-decoration: none;
+    }
   
   a:visited {
-  color : gray;
-  text-decoration: none;
-  }
+      color : gray;
+      text-decoration: none;
+    }
   
   a:hover {
-  color : white;
-  text-decoration: underline;
-  }
+      color : white;
+      text-decoration: underline;
+    }
 }
 
 body {
