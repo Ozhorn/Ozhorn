@@ -1,16 +1,4 @@
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
-
-a:link {
-  color : white;
-  text-decoration: none;
-}
-a:visited {
-  color : gray;
-  text-decoration: none;
-}
-a:hover {
-  color : white;
-  text-decoration: underline;
     
 html {
     font-family: Pretendard;
@@ -24,6 +12,22 @@ html {
 html {
     background-color: #1a1a1a;
     color: #cccccc;
+}
+html {
+  a:link {
+  color : white;
+  text-decoration: none;
+  }
+  
+  a:visited {
+  color : gray;
+  text-decoration: none;
+  }
+  
+  a:hover {
+  color : white;
+  text-decoration: underline;
+  }
 }
 
 body {
