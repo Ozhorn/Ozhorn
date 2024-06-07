@@ -66,7 +66,7 @@ div.title {
 }
 
 div.content {
-    width: calc(33.333% - 20px); /* Adjust the width and margin for three items per row */
+    width: calc(25% - 20px); /* Adjust the width and margin for three items per row */
     margin-bottom: 16px; /* Added to ensure consistent spacing between paragraphs */
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
